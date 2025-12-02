@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glow Haven - Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="topnav" id="myTopnav">
+            <a href="index.html" class="logo">Glow Haven</a>
+            <a href="index.html">Home</a>
+            <a href="shop.html" class="active">Shop</a>
+            <a href="ingredients.html">Ingredients</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact & Help</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="shop-hero">
+            <img src="img/shop-banner-skincare.jpg" alt="A collection of elegant skincare bottles on a light marble surface." class="banner-image">
+            <h1>Our Collections</h1>
+
+            <form id="product-filter">
+                <fieldset>
+                    <legend>Filter Products</legend>
+                    <label for="category">Category:</label>
+                    <select id="category" name="category">
+                        <option value="skincare">Skincare</option>
+                        <option value="makeup">Makeup</option>
+                    </select>
+                    <button type="submit">Filter</button>
+                </fieldset>
+            </form>
+        </section>
+
+        <section id="product-comparison">
+            <h2>Skincare Product Comparison (Table)</h2>
+            <table border="1">
+                <caption>Compare Our Bestselling Moisturizers</caption>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Skin Type</th>
+                        <th>Primary Ingredient</th>
+                        <th>Vegan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Hydra-Bloom Cream</td>
+                        <td>Dry, Sensitive</td>
+                        <td>Hyaluronic Acid</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Balancing Day Oil</td>
+                        <td>Oily, Combination</td>
+                        <td>Jojoba Seed Oil</td>
+                        <td>Yes</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="featured-product">
+            <h3>Featured Product: Hydra-Bloom Cream</h3>
+            <figure>
+                <img src="img/hydra-bloom-cream.jpg" alt="Clean jar of Hydra-Bloom face cream with soft lighting." width="400">
+                <figcaption>The ultimate hydration boost for radiant skin.</figcaption>
+            </figure>
+            <h4>Key Benefits (Unordered List)</h4>
+            <ul>
+                <li>24-Hour Hydration technology.</li>
+                <li>Vegan and cruelty-free formula.</li>
+                <li>Dermatologist-tested and approved.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Glow Haven. Shop with confidence.</p>
+    </footer>
+    <script src="js/nav.js"></script>
+</body>
+</html>
